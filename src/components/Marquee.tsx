@@ -5,25 +5,25 @@ const MarqueeComponent = () => {
     <>
       <div className=""></div>
       <Marquee
-        speed={300}
+        speed={200}
         className="marquee inline-block whitespace-nowrap  w-full"
       >
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
-        <h1 className="font-mori italic inline w-full text-[10vw] tracking-wider">
+        <h1 className="font-mori italic inline w-full text-[8vw] tracking-wider">
           Who the Hell is he? |
         </h1>
       </Marquee>

@@ -32,7 +32,7 @@ const Desc = () => {
       scrollTrigger: {
         trigger: ".desc",
         scroller: "body",
-        start: "top 40%",
+        start: "top 60%",
         end: "end 20%",
         scrub: 5,
       },
