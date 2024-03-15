@@ -34,9 +34,9 @@ const Navbar = () => {
   return (
     <nav
       data-scroll
-      className="flex fixed h-30 z-[1000] py-4 px-[5vw] w-full  items-start justify-between bg-[var(--background)] text-[var(--text-color)]"
+      className="flex fixed h-30 z-[1000] py-4 px-[5vw] w-full  items-start justify-between  text-[var(--text-color)] transition-all duration-500"
     >
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         className="relative myName cursor-pointer"
       >
@@ -44,7 +44,7 @@ const Navbar = () => {
         <h1 className="absolute font-mori text-[1.5vh] tracking-[.5em] right-0 bottom-[0.2em] ">
           mallisetti
         </h1>
-      </motion.div>
+      </motion.div> */}
       <motion.div
         data-scroll
         initial={{ y: "-250%" }}
